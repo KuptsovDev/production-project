@@ -12,6 +12,9 @@
     //компилятор обрабатывает не только TS файлы но и JS
     "allowJs": true,
     "moduleResolution": "node",
+    //для абсалютного импорта
+    "baseUrl": ".",
+
     //esModuleInterop позволяет работать с пакетами, которые используют
     //common js как с обычными пакетами с помощью import (require() module.export) = common js
     //import Moment from 'moment';
